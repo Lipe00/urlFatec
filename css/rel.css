@@ -1,0 +1,146 @@
+@import url('https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css');
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-weight: 200;
+
+}
+body{
+    background: #f0f0f0;
+    padding: 0 0 1rem 0;
+    
+}
+.search-bar{
+    width: 80%;
+    margin: 100px 0 0 10%;
+    background: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.search-bar input{
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: transparent;
+}
+
+
+
+.content-row{
+    display: flex;
+    flex-direction: row;
+
+}
+.content-row .card-container{
+    margin-left: 2.5rem;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 1rem;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: .5rem;
+}
+.card-content p{
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: .25rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+.card-content {
+    align-items: end;
+}
+.data-row-ext, .buttons{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: flex-end;
+}
+.data-row-int{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    bottom: 0;
+
+    flex-direction: row;
+    /* background-color: #606060; */
+    height: 50px;
+    margin: 10px;
+    bottom: 0;
+    width: 100%;
+}
+.data-row-int p{
+    color: black;
+    margin-bottom: 1px;
+}
+.card-image{
+    width: 325;
+    max-height: 200px;
+    overflow: hidden;
+}
+.card-image img{
+    width: 100%; 
+    max-height: 200px
+}
+.data-row-int button{
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+}
+.data-row-int button:nth-child(1){
+    background-color: #48dc50;
+    color: #f0f0f0;
+}
+.data-row-int button:nth-child(1):hover{
+    background: #009900;
+    color: #fff;
+}
+.data-row-int button:nth-child(2){
+    background-color: #ff0000;
+    color: #f0f0f0;
+}
+.data-row-int button:nth-child(2):hover{
+    background: #af0000;
+    color: #fff;
+}
