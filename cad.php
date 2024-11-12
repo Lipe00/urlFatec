@@ -33,7 +33,6 @@
         <input type="file" id="uploadBtn" name="uploadBtn" required />
         <label id="lblFile" for="uploadBtn"><i class="ri-upload-line"></i>Enviar Arquivo</label>
       </div>
-      
       <button>Submit</button>
     </form>
   </section>
